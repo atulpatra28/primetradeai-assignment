@@ -139,49 +139,14 @@ Frontend will run on `http://localhost:5173`
 
 ---
 
-## 🧪 Testing with Postman
 
-### 1. Import Collection
-Import the following endpoints into Postman:
 
-**Signup:**
-```
-POST http://localhost:5000/api/auth/signup
-Body (JSON):
-{
-  "name": "John Doe",
-  "email": "john@example.com",
-  "password": "password123"
-}
-```
 
-**Login:**
-```
-POST http://localhost:5000/api/auth/login
-Body (JSON):
-{
-  "email": "john@example.com",
-  "password": "password123"
-}
-```
 
-**Create Task (with token):**
-```
-POST http://localhost:5000/api/tasks
-Headers:
-  Authorization: Bearer <your-jwt-token>
-Body (JSON):
-{
-  "title": "Complete project",
-  "description": "Finish the task manager app",
-  "status": "in-progress",
-  "priority": "high"
-}
-```
 
 ---
 
-## 🎨 Features Showcase
+##  Features Showcase
 
 ### Authentication
 - User registration with validation
@@ -204,7 +169,7 @@ Body (JSON):
 
 ---
 
-## 🔐 Security Features
+##  Security Features
 
 1. **Password Security**
    - Passwords hashed with bcrypt (10 salt rounds)
@@ -230,7 +195,7 @@ Body (JSON):
 
 ---
 
-## 📈 Scalability Considerations
+##  Scalability Considerations
 
 ### Current Architecture
 - Modular component structure
@@ -326,32 +291,12 @@ dist
 VITE_API_URL=<your-backend-url>/api
 ```
 
----
 
-## 📝 Future Enhancements
-
-- [ ] Email verification for signup
-- [ ] Password reset functionality
-- [ ] Task categories/tags
-- [ ] Task sharing between users
-- [ ] File attachments for tasks
-- [ ] Real-time updates with WebSockets
-- [ ] Dark mode toggle
-- [ ] Export tasks to CSV/PDF
-- [ ] Task reminders and notifications
-- [ ] Admin dashboard
 
 ---
 
-## 🐛 Known Issues & Fixes
 
-1. **CORS Errors**: Make sure backend CORS origin matches frontend URL
-2. **MongoDB Connection**: Ensure MongoDB is running before starting backend
-3. **Port Conflicts**: Change PORT in .env if 5000 or 5173 are in use
-
----
-
-## 👨‍💻 Development
+##  Development
 
 ### Code Style
 - ES6+ JavaScript
@@ -360,28 +305,5 @@ VITE_API_URL=<your-backend-url>/api
 - Destructuring
 - Template literals
 
-### Best Practices Followed
-- Single responsibility principle
-- DRY (Don't Repeat Yourself)
-- Error handling with try-catch
-- Proper HTTP status codes
-- RESTful API design
-- Component-based architecture
 
 ---
-
-## 📄 License
-
-This project is created as an assignment submission.
-
----
-
-## 🤝 Contributing
-
-This is an assignment project, but suggestions are welcome!
-
----
-
-## 📧 Contact
-
-For questions about this project, please reach out via the repository issues.
