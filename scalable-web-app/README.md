@@ -1,4 +1,4 @@
-# Scalable Web App - Task Manager
+# Task Flow - Task Manager
 
 A full-stack web application with authentication, user management, and task management features. Built with React, Node.js, Express, and MongoDB.
 
@@ -29,84 +29,6 @@ A full-stack web application with authentication, user management, and task mana
 - HTTP-only token storage (can be upgraded)
 
 ---
-
-## 📁 Project Structure
-
-```
-scalable-web-app/
-├── backend/
-│   ├── src/
-│   │   ├── config/          # Database configuration
-│   │   ├── controllers/     # Route controllers
-│   │   ├── models/          # Mongoose models
-│   │   ├── routes/          # API routes
-│   │   ├── middleware/      # Auth, validation, error handling
-│   │   └── server.js        # Express app entry point
-│   ├── .env                 # Environment variables
-│   └── package.json
-│
-└── frontend/
-    ├── src/
-    │   ├── components/      # Reusable UI components
-    │   ├── context/         # React context (Auth)
-    │   ├── hooks/           # Custom hooks
-    │   ├── pages/           # Route pages
-    │   ├── services/        # API service layer
-    │   ├── utils/           # Helper functions
-    │   └── App.jsx          # Main app component
-    ├── .env                 # Frontend environment variables
-    └── package.json
-```
-
----
-
-## 🛠️ Installation & Setup
-
-### Prerequisites
-- Node.js (v16 or higher)
-- MongoDB (local or MongoDB Atlas)
-- npm or yarn
-
-### 1. Clone the Repository
-```bash
-git clone <your-repo-url>
-cd scalable-web-app
-```
-
-### 2. Backend Setup
-```bash
-cd backend
-npm install
-
-# Create .env file
-# Copy the following to backend/.env:
-PORT=5000
-MONGODB_URI=mongodb://localhost:27017/webapp
-JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
-JWT_EXPIRE=7d
-NODE_ENV=development
-
-# Start MongoDB (if local)
-mongod
-
-# Run backend
-npm run dev
-```
-
-Backend will run on `http://localhost:5000`
-
-### 3. Frontend Setup
-```bash
-cd ../frontend
-npm install
-
-# Create .env file
-# Copy the following to frontend/.env:
-VITE_API_URL=http://localhost:5000/api
-
-# Run frontend
-npm run dev
-```
 
 Frontend will run on `http://localhost:5173`
 
