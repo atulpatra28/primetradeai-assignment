@@ -33,6 +33,21 @@ A full-stack web application with authentication, user management, and task mana
 Frontend will run on `http://localhost:5173`
 
 ---
+## Sign Up Page
+![Sign Up Page](screenshots/1.png "User Registration Screen")
+
+## Dashboard
+![Dashboard](screenshots/2.png "Main Dashboard")
+
+## Task List
+![My Tasks](screenshots/3.png "Task List View")
+
+## Edit Task Modal
+![Edit Task](screenshots/4.png "Edit Task Dialog")
+
+## Profile Page
+![Profile Settings](screenshots/5.png "User Profile Settings")
+
 
 ## 📡 API Endpoints
 
