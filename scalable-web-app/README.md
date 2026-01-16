@@ -9,12 +9,13 @@ A full-stack web application with authentication, user management, and task mana
 cd frontend
 npm install
 npm run dev
-
+```gu
 ## Backend
 ```bash
 cd backend
 npm install
 npm run dev
+```
 
 ##  Features
 
