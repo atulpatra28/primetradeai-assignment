@@ -33,20 +33,26 @@ A full-stack web application with authentication, user management, and task mana
 Frontend will run on `http://localhost:5173`
 
 ---
-## Sign Up Page
-![Sign Up Page](ss/1.png "User Registration Screen")
+## Login Page
+![Login Page](ss/1.png "Login Page")
+
+## Sign up Page
+![Sign up Page](ss/2.png "Sign up Page")
 
 ## Dashboard
-![Dashboard](ss/2.png "Main Dashboard")
+![Dashboard](ss/3.png "Dashboard")
 
-## Task List
-![My Tasks](ss/3.png "Task List View")
+## Dashboard containing tasks with different priorities and statuses
+![Tasks](ss/4.png "Tasks")
 
-## Edit Task Modal
-![Edit Task](ss/4.png "Edit Task Dialog")
-
-## Profile Page
-![Profile Settings](ss/5.png "User Profile Settings")
+## Editing existing task
+![Editing existing task](ss/5.png "Editing existing task")
+## Profile settings
+![Profile settings](ss/6.png "Profile settings")
+## Filtering tasks
+![Filtering Tasks](ss/7.png "Filtering Tasks")
+## Editing and deleting task
+![Editing and deleting task](ss/8.png "Editing and deleting task")
 
 
 ## 📡 API Endpoints
