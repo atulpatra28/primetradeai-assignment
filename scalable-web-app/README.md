@@ -1,7 +1,15 @@
 # Task Flow - Task Manager
 
 A full-stack web application with authentication, user management, and task management features. Built with React, Node.js, Express, and MongoDB.
-
+# Setup Instructions
+## Frontend
+cd frontend
+npm install
+npm run dev
+## Backend
+cd backend
+npm install
+npm run dev
 ##  Features
 
 ### Frontend
@@ -44,6 +52,8 @@ Frontend will run on `http://localhost:5173`
 
 ## Dashboard containing tasks with different priorities and statuses
 ![Tasks](ss/4.png "Tasks")
+## Create New task
+![new Task](ss/9.png "New Task")
 
 ## Editing existing task
 ![Editing existing task](ss/5.png "Editing existing task")
@@ -55,7 +65,7 @@ Frontend will run on `http://localhost:5173`
 ![Editing and deleting task](ss/8.png "Editing and deleting task")
 
 
-## 📡 API Endpoints
+##  API Endpoints
 
 ### Authentication
 | Method | Endpoint | Description | Auth Required |
@@ -81,11 +91,6 @@ Frontend will run on `http://localhost:5173`
 - `sort` - Sort order (default: -createdAt)
 
 ---
-
-
-
-
-
 
 ---
 
