@@ -2,14 +2,20 @@
 
 A full-stack web application with authentication, user management, and task management features. Built with React, Node.js, Express, and MongoDB.
 # Setup Instructions
+
 ## Frontend
+
+```bash
 cd frontend
 npm install
 npm run dev
+
 ## Backend
+```bash
 cd backend
 npm install
 npm run dev
+
 ##  Features
 
 ### Frontend
