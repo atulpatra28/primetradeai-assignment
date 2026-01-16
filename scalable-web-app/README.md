@@ -3,6 +3,12 @@
 A full-stack web application with authentication, user management, and task management features. Built with React, Node.js, Express, and MongoDB.
 # Setup Instructions
 Run frontend and backend on different terminals starting from `primetradeai assignment\scalable-web-app` directory.
+## Backend
+```bash
+cd backend
+npm install
+npm run dev
+```
 ## Frontend
 
 ```bash
@@ -10,12 +16,7 @@ cd frontend
 npm install
 npm run dev
 ```
-## Backend
-```bash
-cd backend
-npm install
-npm run dev
-```
+
 
 ##  Features
 
